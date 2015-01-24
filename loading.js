@@ -36,8 +36,10 @@ function changeSettings(){
 //Inserts the canvas object as a child filling to its parents size
 function insertCanvas(root){
   canvas = document.createElement("canvas")
-  canvas.height = root.clientHeight
-  canvas.width = root.clientWidth
+
+
+  canvas.width  = root.clientWidth;
+  canvas.height = root.clientHeight;
 
   root.appendChild(canvas)
 }
